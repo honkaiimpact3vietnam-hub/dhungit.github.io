@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+html{
+    font-size: 1rem;
+}
 .HEADER__BOX{
     height:120px;
     background-color: white;
@@ -54,7 +56,7 @@ body{
     list-style: none;
     margin-top: 50px;
     margin-bottom: -48px;
-    font-size: 24px;
+    font-size: 1.4rem;
     font-family: Calibri, strong;
     letter-spacing: 6px;
 }
@@ -88,7 +90,7 @@ body{
 .MAIN__DAY__NUMBER{
     margin-right: 10px;
     color: white;
-    font-size: 100px;
+    font-size: 6.25rem;
     font-family: Calibri, strong;
 }
 
@@ -96,7 +98,7 @@ body{
     margin-top: 50px;
     font-family: Calibri, strong;
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .MAIN__ESTIMATION{
@@ -110,14 +112,14 @@ body{
     margin-bottom: 20px;
     font-family: Calibri, strong;
     color: white;
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 
 .MAIN__ESTIMATE__P{
     margin-left: 10px;
     font-family: Calibri;
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
 }
 
@@ -152,13 +154,13 @@ body{
 
 .MAIN__BOX__ELEMENT__NUMBER{
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: Calibri;
 }
 
 .MAIN__BOX__ELEMENT__TEXT{
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
     font-family: Calibri;
     opacity: 0.6;
 }
@@ -172,7 +174,7 @@ body{
 
 .NOF__TEXT{
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
     font-family: Calibri;
     text-align: center;
 }
@@ -186,7 +188,7 @@ body{
 }
 
 .MAIN__ESTIMATE__DATE__ESTIMATE__TEXT{
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-top: -2px;
 }
 
@@ -202,7 +204,7 @@ body{
 
 .FOOTER__TEXT{
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
     font-family: Calibri;
     text-align: center;
 }
