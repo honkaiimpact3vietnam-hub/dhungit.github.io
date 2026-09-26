@@ -17,11 +17,7 @@ body{
     
 }
 
-@media (max-width: 1000px) {
-    body {
-        height: 130vh;
-    }
-}
+
 
 .HEADER__REVEAL{
     display: flex;
@@ -67,7 +63,7 @@ body{
 .CIRCLE{
     position: absolute;
     top: 63px;
-    margin-left: 394px;
+    margin-left: 378px;
     height: 5px;
     width: 5px;
     background-color: black;
@@ -211,4 +207,26 @@ body{
 
 .LOGO{
     color: white;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        height: 130vh;
+    }
+    html {
+        font-size:0.85rem;
+    }
+    .MAIN__ESTIMATE__DATE__ESTIMATE__TEXT{
+        margin-left: 6px;
+        margin-top: 2px;
+        font-size: 0.8em;
+    }
+    .CIRCLE{
+        margin-left: 340px;
+    }
+    .MAIN__DAY__NUMBER{
+        font-size: 5.5em;
+        margin-top: 12px;
+    }
 }
