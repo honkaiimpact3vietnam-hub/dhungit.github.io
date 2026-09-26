@@ -212,10 +212,10 @@ body{
 
 @media (max-width: 768px) {
     body {
-        height: 130vh;
+        height: 140vh;
     }
     html {
-        font-size:0.5rem;
+        font-size:0.75rem;
     }
     .MAIN__ESTIMATE__DATE__ESTIMATE__TEXT{
         margin-left: 6px;
@@ -223,6 +223,7 @@ body{
         font-size: 0.8em;
     }
     .CIRCLE{
+        display: none;
         margin-left: 318px;
         margin-top: -4px;
         transform: scale(0.9);
@@ -231,4 +232,13 @@ body{
         font-size: 5.5em;
         margin-top: 18px;
     }
+    .HEADER__TEXT--color{
+        margin-left: -2px !important;   
+    }
+    .HEADER__BODY{
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+    }
+    
 }
