@@ -215,7 +215,7 @@ body{
         height: 130vh;
     }
     html {
-        font-size:0.85rem;
+        font-size:0.75rem;
     }
     .MAIN__ESTIMATE__DATE__ESTIMATE__TEXT{
         margin-left: 6px;
@@ -223,10 +223,12 @@ body{
         font-size: 0.8em;
     }
     .CIRCLE{
-        margin-left: 340px;
+        margin-left: 318px;
+        margin-top: -4px;
+        transform: scale(0.9);
     }
     .MAIN__DAY__NUMBER{
         font-size: 5.5em;
-        margin-top: 12px;
+        margin-top: 18px;
     }
 }
